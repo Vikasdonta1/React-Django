@@ -10,6 +10,17 @@ This mono-repository is developed along with the tutorial series I wrote
 "How to Build a Bookshelf App with Django and React".
 
 
-[Part 1: Django - How to Build a Bookshelf App with Django and React](https://python.plainenglish.io/how-to-build-a-bookshelf-app-with-django-and-react-part-1-e020b0f28e6b)
+# How to Run Locally
 
-[Part 2: React - How to Build a Bookshelf App with Django and React](https://python.plainenglish.io/how-to-build-a-bookshelf-app-with-django-and-react-f509ce92adba)
+cd backend
+pipenv install djangorestframework
+pipenv install django-cors-headers
+python manage.py runserver
+
+open another terminal
+cd web
+npm i
+npm run build
+npm start
+
+Thats it!
