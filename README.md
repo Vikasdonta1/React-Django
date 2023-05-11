@@ -12,16 +12,16 @@ This mono-repository is developed along with the tutorial series I wrote
 
 # How to Run Locally
 ```sh
-## cd backend
-## pipenv install djangorestframework
-## pipenv install django-cors-headers
-## python manage.py runserver
+ cd backend
+ pipenv install djangorestframework
+ pipenv install django-cors-headers
+ python manage.py runserver
 ```
 ## open another terminal
 ```sh
-## cd web
-## npm i
-## npm run build
-## npm start
+ cd web
+ npm i
+ npm run build
+ npm start
 ```
 ## Thats it!
